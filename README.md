@@ -28,16 +28,13 @@
 ### Hi there 🍨
 
 - 👋 Hi, I'm zhaoci.
-- 👀 I'm a student at Shenzhen University.
-- 🧡 Focus on Computer Vision (CV) and Talking Head Generation.
-- 👯 Dream of traveling around the world.
+- 🧡 Focus on MES system and web development.
+- 👯 The dream is to travel all over the world.
 - 🤔 Hope to think and do some interesting things.
 - 💬 Keep learning as long as life lasts. Fighting!!!
-- 🛰️ My WeChat: pikachu2biubiu.
-- 📫 My Email: kedreamix@gmail.com.
-- 🚀 My Github Blog: https://kedreamix.github.io/.
-- 📚 My CSDN Blog: https://redamancy.blog.csdn.net/.
-- 📯 My Bilibili Space: https://space.bilibili.com/241286257.
+- 🛰️ My WeChat: zhaociTop.
+- 📫 My Email: zhaocitop@163.com.
+- 🚀 My Github Blog: zhaoci.top.
 </div>
 
 <!-- Snake Code Contribution Map 贪吃蛇代码贡献图 -->
@@ -57,7 +54,7 @@
 
 <!--
 <img width="200%" src="https://cdn.jsdelivr.net/gh/sun0225SUN/sun0225SUN/assets/images/hr.gif" />
-<img align="right" src="https://github-readme-stats.vercel.app/api?username=Kedreamix&show_icons=true&icon_color=CE1D2D&text_color=718096&bg_color=ffffff&hide_title=true" />
+<img   align="center" src="https://github-readme-stats.vercel.app/api?username=zhaoci1&locale=en&line_height=33&show_icons=true&hide=&theme=radical&rank_icon=default"/>
 ![](https://github-readme-stats.vercel.app/api?username=Kedreamix&show_icons=true&icon_color=CE1D2D&text_color=718096&bg_color=ffffff&hide_title=true)
 
 [![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=kedreamix&langs_count=5)](https://github-readme-stats.vercel.app/api/top-langs/?username=kedreamix&langs_count=5)
