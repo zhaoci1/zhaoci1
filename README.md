@@ -22,7 +22,7 @@
 
 
 <div align="left">
-<img align="right" src="https://github-readme-stats.vercel.app/api?username=Kedreamix&show_icons=true&icon_color=CE1D2D&text_color=718096&bg_color=ffffff" />
+<img   align="right" src="https://github-readme-stats.vercel.app/api?username=zhaoci1&locale=en&line_height=33&show_icons=true&hide=&theme=radical&rank_icon=default"/>
 
 
 ### Hi there 🍨
@@ -49,7 +49,7 @@
 
 
 <!-- GitHub 奖杯🏆 -->
-[![trophy](https://github-profile-trophy.vercel.app/?username=kedreamix&row=1&column=7)](https://kedreamix.github.io)
+<div ><img  src="https://github-profile-trophy.vercel.app/?username=zhaoci1&theme=gruvbox&row=1&column=5&no-frame=true&no-bg=true" /><br/></div>
 
 
 <!--
