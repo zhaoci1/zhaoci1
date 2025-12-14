@@ -1,32 +1,37 @@
-name: Generate Snake
+name: Generate Snake Animation
 
 on:
   schedule:
-    # 每天UTC时间0点运行
-    - cron: "0 0 * * *"
-  workflow_dispatch:
+    - cron: "0 0 * * *"  # 每天运行一次
+  workflow_dispatch:      # 手动触发
   push:
     branches:
       - main
 
 jobs:
-  build:
+  generate:
     runs-on: ubuntu-latest
+    permissions:
+      contents: write  # 必须添加这个权限
+    
     steps:
-      - uses: actions/checkout@v3
-        with:
-          fetch-depth: 0
-
-      - uses: yoshi389111/github-contribution-snake@v0.2
-        with:
-          # 可选：gif_out_path: dist/github-contribution-snake.gif
-          svg_out_path: dist/github-contribution-snake.svg
-
-      - name: Push to output branch
-        uses: peaceiris/actions-gh-pages@v3
-        with:
-          github_token: ${{ secrets.GITHUB_TOKEN }}
-          publish_dir: ./dist
-          publish_branch: output
-          # 可选：保留文件，如果你想保留多个文件，可以设置为true
-          keep_files: false
+    - name: Checkout repository
+      uses: actions/checkout@v3
+      
+    - name: Generate Snake
+      uses: Platane/snk@v3
+      id: snake-gif
+      with:
+        github_user_name: ${{ github.repository_owner }}
+        outputs: |
+          dist/github-contribution-grid-snake.svg
+          dist/github-contribution-grid-snake-dark.svg?palette=github-dark
+        
+    - name: Push to output branch
+      uses: peaceiris/actions-gh-pages@v3
+      with:
+        github_token: ${{ secrets.GITHUB_TOKEN }}
+        publish_dir: ./dist
+        publish_branch: output
+        keep_files: true
+        force_orphan: false
