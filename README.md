@@ -38,7 +38,7 @@
 </div>
 
 <!-- Snake Code Contribution Map 贪吃蛇代码贡献图 -->
-![Snake animation](https://github.com/zhaoci1/zhaoci1/blob/output/github-contribution-grid-snake.svg)
+![贪吃蛇游戏](https://raw.githubusercontent.com/zhaoci1/zhaoci1/output/github-contribution-grid-snake.svg)
 
 
 <!-- ########################################## 分割 ########################################## -->
